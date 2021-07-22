@@ -1,6 +1,6 @@
 # radix_sort_algorithm
-Contains 2 problems to solve:
-1. Consider a large dataset of transaction records. Given a number t, we wish to determine which
+###Question 1:
+Consider a large dataset of transaction records. Given a number t, we wish to determine which
 interval of length t contains the most transactions. All times in this question are measured in
 whole seconds after midnight 1/1/1970, i.e. they are non-negative integers.
 
@@ -27,7 +27,8 @@ If there are multiple such intervals, return the interval with minimal start tim
 
 Complexity: O(nk), where n is the number of elements in transactions and k is the greatest number of digits in any element in transactions
 <br>
-          
+   
+
 Example:
 ```
 t = 5
@@ -36,8 +37,9 @@ transactions = [11, 1, 3, 1, 4, 10, 5, 7, 10]
 (0, 5)
 ```
 
-
-2.  Consider the following problem: Given two lists of words, we wish to find all words in the first list which have an anagram in the second list.
+<br>
+###Question 2
+Consider the following problem: Given two lists of words, we wish to find all words in the first list which have an anagram in the second list.
 Strings r and s are anagrams of one another if the characters in s can be permuted to form r. Trivially, if r = s, then they are anagrams of one another.
 To solve this problem, a function `words_with_anagrams(list1, list2)` is written.
 
