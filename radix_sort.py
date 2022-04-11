@@ -1,6 +1,3 @@
-#Student: Kar Kei Ong
-#Student no.: 31902634
-
 import math
 def radix_sort(new_list, base):
     '''
